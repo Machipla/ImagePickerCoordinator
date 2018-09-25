@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name         = 'ImagePickerCoordinator'
   spec.homepage     = "https://github.com/Machipla/ImagePickerCoordinator"
-  spec.version      = '0.0.1'
+  spec.version      = '1.0.0'
   spec.platform     = :ios, "9.0"
   spec.authors      = 'Mario Chinchilla'
   spec.summary      = 'The typical flow for picking an image now encapsulated in a coordinator!'
