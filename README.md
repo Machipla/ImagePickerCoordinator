@@ -16,7 +16,7 @@ imagePickerCoordinator.start()
 ...
 ```
 
-### Configuration
+### Configuration
 You can configure some of the ways the coordinator behaves.
 - You can pre-select an image like this:
 ```
