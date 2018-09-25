@@ -1,0 +1,24 @@
+PODS:
+  - CropViewController (2.3.8)
+  - ImagePicker (3.1.0)
+  - ImagePickerCoordinator (1.0.0):
+    - CropViewController
+    - ImagePicker
+
+DEPENDENCIES:
+  - ImagePickerCoordinator (~> 1.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CropViewController
+    - ImagePicker
+    - ImagePickerCoordinator
+
+SPEC CHECKSUMS:
+  CropViewController: 7be882b7d3fb3faef48a41924e80f689e9df2514
+  ImagePicker: db1fd7626337b2577c523bef5f499bbbe5a37079
+  ImagePickerCoordinator: 4d6864af66817717eb0be2e70b98bfb783d63d30
+
+PODFILE CHECKSUM: d91e900a45e65f35286b307abe7f7000823ff7e8
+
+COCOAPODS: 1.5.3

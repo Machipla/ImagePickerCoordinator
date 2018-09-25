@@ -1,0 +1,5 @@
+"COORDINATOR_SELECT_CAMERA"         = "Fotocamera";
+"COORDINATOR_SELECT_PHOTO_LIBRARY"  = "Libreria di foto";
+"COORDINATOR_SELECT_SAVED_PHOTOS"   = "Foto salvate";
+"COORDINATOR_SELECT_CLEAR_PHOTO"    = "Cancella foto";
+"COORDINATOR_SELECT_CANCEL"         = "Annulla";

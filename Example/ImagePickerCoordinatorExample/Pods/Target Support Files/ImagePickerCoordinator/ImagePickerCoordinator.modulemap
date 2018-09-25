@@ -1,0 +1,6 @@
+framework module ImagePickerCoordinator {
+  umbrella header "ImagePickerCoordinator-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,7 @@
+
+target 'ImagePickerCoordinatorExample' do
+    use_frameworks!
+
+    pod 'ImagePickerCoordinator', '~> 1.0.0'
+
+end

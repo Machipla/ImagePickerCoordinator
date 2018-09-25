@@ -37,6 +37,5 @@ imagePickerCoordinator.canClearSelectedImageIfAny = false
 The delegate can tell you when an image has been selected, cleared or when the coordinator has been cancelled without selecting any image.
 If you need more delegate methods ask for it or create a pull request!
 
-
 ### More
 Suggestions? Features? Threats? Let me know!

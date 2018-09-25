@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ImagePickerCoordinatorExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KI4-20-XFh">
+                                <rect key="frame" x="67.5" y="98.5" width="240" height="245"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="uD8-X4-6qO"/>
+                                    <constraint firstAttribute="width" secondItem="KI4-20-XFh" secondAttribute="height" multiplier="48:49" id="yKh-GE-vEU"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z5V-fX-1wb">
+                                <rect key="frame" x="115.5" y="373.5" width="144" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="3vW-Ud-aU1"/>
+                                </constraints>
+                                <state key="normal" title="Select a new picture!"/>
+                                <connections>
+                                    <action selector="changePictureTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="dCp-Dp-2M2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="z5V-fX-1wb" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="0fw-4i-XmP"/>
+                            <constraint firstItem="KI4-20-XFh" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="centerY" priority="750" id="Daw-Eb-DIm"/>
+                            <constraint firstItem="KI4-20-XFh" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Evx-IQ-66V"/>
+                            <constraint firstItem="KI4-20-XFh" firstAttribute="top" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="LD9-Yo-Yr1"/>
+                            <constraint firstItem="z5V-fX-1wb" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="Vm5-jz-6wc"/>
+                            <constraint firstItem="z5V-fX-1wb" firstAttribute="top" secondItem="KI4-20-XFh" secondAttribute="bottom" constant="30" id="aAz-Pj-kpe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="z5V-fX-1wb" secondAttribute="trailing" constant="8" id="avt-RS-TOA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="KI4-20-XFh" id="1Cq-rV-E0L"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-82.400000000000006" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
