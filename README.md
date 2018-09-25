@@ -1,5 +1,12 @@
 # ImagePickerCoordinator
-Yet another image picker coordinator based on TOCropViewController and ImagePicker
+[![License](https://img.shields.io/packagist/l/doctrine/orm.svg?style=flat-square)](https://cocoapods.org/pods/ImagePickerCoordinator)
+[![Version](https://img.shields.io/github/release/qubyte/rubidium.svg?style=flat-square)](https://cocoapods.org/pods/ImagePickerCoordinator)
+
+
+Yet another image picker coordinator based on TOCropViewController and ImagePicker<br/>
+<p align="center">
+<img src="Example/Screenshots/ImagePickerCoordinator.gif" style='height: 100%; width: 100%; object-fit: contain'/>
+</p>)
 
 ### How to use
 Image picker has so simple usage, it can be reduced to 4 lines of code!
