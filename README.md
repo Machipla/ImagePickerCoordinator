@@ -1,6 +1,6 @@
 # ImagePickerCoordinator
 [![License](https://img.shields.io/packagist/l/doctrine/orm.svg?style=flat-square)](https://cocoapods.org/pods/ImagePickerCoordinator)
-[![Version](https://img.shields.io/badge/pod-v1.0.1-blue.svg)](https://cocoapods.org/pods/ImagePickerCoordinator)
+[![Version](https://img.shields.io/badge/pod-v1.0.1-blue.svg?style=flat-square)](https://cocoapods.org/pods/ImagePickerCoordinator)
 
 Yet another image picker coordinator based on TOCropViewController and ImagePicker
 <p align="center">
